@@ -1,8 +1,8 @@
 import React from "react";
-import classes from './MyBtn.module.css';
+import classes from './NavBtn.module.css';
 
 const NavBtn = ({ children, ...props }) => {
-    return <button {...props} className={classes.MyBtn}>
+    return <button {...props} className={classes.NavBtn}>
         {children}
     </button>
 }

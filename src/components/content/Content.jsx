@@ -15,7 +15,7 @@ const Content = () => {
             <Routes>
                 <Route path="/stats/*" element={<CharStats />} />
                 
-                <Route exact path="/" element={<CharStats />} />
+                <Route exact path="*" element={<CharStats />} />
                 <Route exact path="/chumba" element={<CharChumba />} />
                 <Route exact path="/items" element={<CharItems />} />
                 <Route exact path="/cyber" element={<CharCyber />} />

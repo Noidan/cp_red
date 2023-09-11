@@ -2,5 +2,6 @@
 
     display: flex;
     flex-flow: column wrap;
+    height: 550px;
 
 }

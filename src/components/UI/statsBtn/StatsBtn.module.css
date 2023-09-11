@@ -1,0 +1,10 @@
+.StatsBtn {
+    padding: 5px 5px;
+    color: #FFFD0B;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #FFFD0B;
+    cursor: pointer;
+    height: 9%;
+
+}

@@ -1,20 +1,20 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import CharHeader from '../UI/charHeader/CharHeader'
 import CharNavBar from './../UI/charNavBar/CharNavBar';
 import CharStats from '../charStats/CharStats';
 import CharCyber from '../charCyber/CharCyber';
 import CharChumba from '../charChumba/CharChumba';
 import CharItems from '../charItems/CharItems';
+import CharHeader from '../charHeader/CharHeader'
 
 const Content = () => {
     return (
         <div >
-            <CharHeader></CharHeader>
-            <CharNavBar></CharNavBar>
+            <CharHeader />
+            <CharNavBar />
             <Routes>
                 <Route path="/stats/*" element={<CharStats />} />
-                
+
                 <Route exact path="*" element={<CharStats />} />
                 <Route exact path="/chumba" element={<CharChumba />} />
                 <Route exact path="/items" element={<CharItems />} />

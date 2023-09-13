@@ -1,5 +1,5 @@
 import React from 'react'
-import StatsMenu from '../UI/statsMenu/StatsMenu'
+import StatsMenu from '../UI/statsNav/StatsNav'
 import cl from './CharStats.module.css';
 import { Route, Routes } from 'react-router-dom';
 import StatINT from './StatINT';
@@ -15,12 +15,14 @@ import StatEMP from './StatEMP';
 import StatHUM from './StatHUM';
 
 
+
 const CharStats = () => {
   return (
     <div className={cl.Stats}>
       <StatsMenu />
       <Routes>
         <Route exact path='/int' element={<StatINT />} />
+        <Route exact path="/" element={<StatINT />} />
         <Route exact path='/rea' element={<StatREA />} />
         <Route exact path='/dex' element={<StatDEX />} />
         <Route exact path='/tech' element={<StatTECH />} />

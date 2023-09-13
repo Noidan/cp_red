@@ -1,9 +1,18 @@
-.NavBtn {
+.unactiveBtn {
     padding: 5px 15px;
     color: #FFFD0B;
     font-size: 14px;
     background: transparent;
     border: 1px solid #FFFD0B;
     cursor: pointer;
+    flex-grow: 1;
+}
 
+.activeBtn {
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #01171C;
+    background: #FFFD0B;
+    border: 1px solid #FFFD0B;
+    flex-grow: 1;
 }

@@ -1,17 +1,20 @@
 export const chars = [
     {
+        ava: 'https://cdn.pixabay.com/photo/2023/02/05/12/03/cyberpunk-7769321_960_720.jpg',
         name: 'Ex Ample',
         role: 'Rocker',
-        body: 10,
-        move: 8,
-        ref: 10,
+        special: 'Special',
+        int: 6,
+        rea: 7,
         dex: 8,
         tech: 6,
-        cool: 10,
-        emp: 8,
-        int: 6,
+        cha: 9,
         will: 12,
         luck: 14,
+        move: 8,
+        body: 10,
+        emp: 8,
+        hum: 10,
     },
 
     {

@@ -5,12 +5,11 @@ import CharStats from '../charStats/CharStats';
 import CharCyber from '../charCyber/CharCyber';
 import CharChumba from '../charChumba/CharChumba';
 import CharItems from '../charItems/CharItems';
-import CharHeader from '../charHeader/CharHeader'
+import cl from './Content.module.css'
 
 const Content = () => {
     return (
-        <div >
-            <CharHeader />
+        <div className={cl.container}>
             <CharNavBar />
             <Routes>
                 <Route path="/stats/*" element={<CharStats />} />

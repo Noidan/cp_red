@@ -1,119 +1,41 @@
 import React from 'react'
+import { chars } from '../../bd/chars'
 
 const StatINT = () => {
   return (
     <div>
-      
+
       <table style={{ fontSize: 14 }}>
         <thead>
-          <tr>
-            <td>
-              <b>ИНТЕЛЛЕКТ</b>
-            </td>
-          <td></td>
-          </tr>
+          <tr><td><b>INTELLIGENCE</b></td><td> {chars[0].int} </td></tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Скрытие/Раскрытие объекта</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Чтение по губам</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Внимательность</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Выслеживание</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Бухгалтерия</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td> Обращение c животными</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>  Бюрократия</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Бизнес</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Композиция</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Криминалогия</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Дедукция</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Образование</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Азартные игры</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Поиск информации</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Тактика</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Выживание в пустыне</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Знание местности Дом</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Знание местности Окраины</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Знание местности Центр</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Наука Астрофизика</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td> Наука Химия</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Наука Психология</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Язык Уличный сленг</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>   Язык Японский</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>  Язык Русский</td>
-            <td>1</td>
-          </tr>
+          <tr><td>Hiding/Unveiling an Object</td>   <td>1</td></tr>
+          <tr><td>Lip reading</td>             <td>1</td></tr>
+
+          <tr><td>Attentiveness</td>             <td>1</td></tr>
+          Tracking
+          Accounting
+          Animal handling
+          Bureaucracy
+          Business
+          Composition
+          Criminology
+          Deduction
+          Education
+          Gambling
+          Search for information
+          Tactics
+          Desert Survival
+          Local knowledge House
+          Local knowledge of the Outskirts
+          Local knowledge Center
+          Science Astrophysics
+          Science Chemistry
+          Science Psychology
+          Language Street slang
+          Language Japanese
+          Russian language
         </tbody>
       </table>
     </div>

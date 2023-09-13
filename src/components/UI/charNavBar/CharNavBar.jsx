@@ -1,15 +1,26 @@
 import React from 'react'
 import NavBtn from './../navBtn/NavBtn';
-import { Link } from 'react-router-dom'
+import cl from './CharNavBar.module.css'
 
 const CharNavBar = () => {
   return (
-    <div>
-      <NavBtn><Link to='/stats'>Stats</Link></NavBtn>
-      <NavBtn><Link to='/chumba'>Chumba</Link></NavBtn>
-      <NavBtn><Link to='/items'>Items</Link></NavBtn>
-      <NavBtn><Link to='/cyber'>Cyber</Link></NavBtn>
-    </div>
+    <nav className={cl.navBar}>
+      <NavBtn to="/stats" >
+        Stats
+      </NavBtn>
+
+      <NavBtn to='/chumba'>
+        Chumba
+      </NavBtn>
+
+      <NavBtn to='/items'>
+        Items
+      </NavBtn>
+
+      <NavBtn to='/cyber'>
+        Cyber
+      </NavBtn>
+    </nav>
   )
 }
 

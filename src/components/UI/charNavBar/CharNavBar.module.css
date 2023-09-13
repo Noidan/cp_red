@@ -1,0 +1,11 @@
+.navBar {
+    display: flex;
+    max-width: 380px;
+    width: 100%;
+    color: #FFFD0B;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #FFFD0B;
+    flex-grow: 1;
+    height: 30px;
+}

@@ -1,10 +1,20 @@
-.StatsBtn {
+.unactiveBtn {
     padding: 5px 5px;
     color: #FFFD0B;
     font-size: 14px;
     background: transparent;
     border: 1px solid #FFFD0B;
     cursor: pointer;
-    height: 9%;
+    flex-grow: 1;
+    text-align: center;
+}
 
+.activeBtn {
+    padding: 5px 5px;
+    font-size: 14px;
+    color: #01171C;
+    background: #FFFD0B;
+    border: 1px solid #FFFD0B;
+    flex-grow: 1;
+    text-align: center;
 }

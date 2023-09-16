@@ -1,15 +1,19 @@
 import React from 'react'
 import { chars } from '../../bd/chars'
+import cl from './Stats.module.css'
 
 const StatINT = () => {
+
 
   return (
     <div>
 
       <table style={{ fontSize: 14 }}>
-        <thead>
-          <tr><td><b>INTELLIGENCE</b></td><td> {chars[0].int} </td></tr>
-        </thead>
+        <div >
+          <div className={cl.container}>
+            <div>INTELLIGENCE</div><div>{chars[0].int}</div>
+          </div>
+        </div>
         <tbody>
           <tr><td>Hiding/Unveiling an Object</td><td>{chars[0].int + chars[0].hidingunveiling}</td></tr>
           <tr><td>Lip reading</td><td>{chars[0].int + chars[0].lipreading}</td></tr>
